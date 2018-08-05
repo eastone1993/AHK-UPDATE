@@ -6,7 +6,9 @@
 
 MsgBox, PATCH INFO CALLED 
 
-FileDelete, %A_WorkingDir%\updates
-FileCreateDir, %A_WorkingDir%\updates
+FileRemoveDir, %A_ScriptDir%\updates, 1 ;deletes the update if same version 
+FileCreateDir, %A_ScriptDir%\updates ;recreates empty update directory 
+
+MsgBox, FILES DELETED
 
 ExitApp 
