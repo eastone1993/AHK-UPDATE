@@ -9,7 +9,7 @@
 MsgBox, PATCH INFO CALLED 
 
 dir := A_ScriptDir . "\updates"
-des := A_Desktop . "\test stuff"
+des := A_Desktop . "\test stuff\updates"
 
 FileMoveDir, %dir%, %des%, 2
 
