@@ -4,7 +4,7 @@
 #SingleInstance, force 
 #include %A_ScriptDir%\library\updaterlib.ahk 
 
-version := FileReadLine, vcontrol, %A_ScriptDir%\PatchInfo.ahk, 1
+;version := FileReadLine, vcontrol, %A_ScriptDir%\PatchInfo.ahk, 1
 
 MsgBox, PATCH INFO CALLED 
 
