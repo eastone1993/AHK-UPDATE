@@ -15,4 +15,6 @@ FileDelete, %zd%
 
 ClearUpdateDir()
 
+MsgBox, Installation Complete!
+
 ExitApp 
