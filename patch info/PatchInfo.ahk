@@ -7,7 +7,7 @@
 
 
 ClearUpdateDir()
-MsgBox, Installation Complete!
+;MsgBox, Installation Complete!
 Sleep, 60000
 MsgBox, Hi Forrest! Come to my desk!
 
