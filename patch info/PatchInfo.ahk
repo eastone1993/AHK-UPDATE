@@ -6,6 +6,6 @@
 
 ClearUpdateDir()
 
-MsgBox, Hi Forrest! Enjoy the update!
+MsgBox, Happy Birthday Dad!
 
 ExitApp 
